@@ -7,56 +7,61 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>New York Times</title>
 
+
+    <link rel="shortcut icon" href="./assets/images/favico.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-    <link rel="shortcut icon" href="./assets/images/favico.png">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     <div id="new-york-times">
         <div class="container">
             <div class="new-york-times header">
-                    <i class="far fa-newspaper"></i>
+                <i class="far fa-newspaper"></i>
                 New York Times Search
             </div>
 
             <div class="form-search">
-                <h4></h4>
+                <h4 class="form-search-header"> <i class="far fa-newspaper"></i> Search Parameters</h4>
                 <form>
                     <div class="form-group">
                         <label for="search-input">Search Term:</label>
-                        <input type="text" class="form-control" id="search-input" aria-describedby="emailHelp"
-                           >
-          
+                        <input type="text" class="form-control" id="search-input" aria-describedby="emailHelp">
+
                     </div>
                     <div class="form-group">
-                            <label for="input-num">Number of Records to Retrieve:</label>
-                            <input type="password" class="form-control" id="input-num">
-    
-                        </div>
+                        <label for="input-num">Number of Records to Retrieve:</label>
+                        <input type="password" class="form-control" id="input-num">
+
+                    </div>
 
                     <div class="form-group">
                         <label for="start-year">Start Year:</label>
                         <input type="password" class="form-control" id="start-year">
 
                     </div>
-                 
-             
 
-                        <div class="form-group">
-                                <label for="end-year">End Year:</label>
-                                <input type="password" class="form-control" id="end-year">
-        
-                            </div>
+
+
+                    <div class="form-group">
+                        <label for="end-year">End Year:</label>
+                        <input type="password" class="form-control" id="end-year">
+
+                    </div>
                     <button type="submit" class="btn btn-primary search-btn">Search</button>
                     <button type="reset" class="btn btn-primary reset-btn">Clear Results</button>
 
                 </form>
+
 <!-- 
                 <form action="" method="GET">
                     <input type="text" id="search-input"><br>

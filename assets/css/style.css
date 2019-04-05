@@ -1,13 +1,12 @@
 
-
-.container {
-    margin: 0 auto;
-    width: 1024px;
-
+.form-search {
+    border:1px solid #000;
 }
+
+;l
 .results {
     height:60px;
-    font-size: 50px;
+    font-size: 20px;
     background: rgb(51, 13, 95);
     color: white;
     padding: 5px 0px 0px 5px ;
@@ -16,7 +15,7 @@
     box-sizing: border-box; 
 }
 .new-york-times {
-    height:120px;
+    height:150px;
     text-align: center;
     font-size: 50px;
     background: rgb(51, 13, 95);
@@ -29,4 +28,31 @@
 .form-search {
     border:1px solid #000;
 }
+
+
+
+#new-york-times .container .form-search .form-search-header {
+    background: #2C3E4F;
+    color:#fff;
+    border-radius: 2px;
+    padding: 6px;
+    height: 37px;
+    font-size: 20px;
+}
+
+#new-york-times .container .form-search {
+    border-radius: 2px;
+    margin-top:20px;
+}
+
+#new-york-times .container .form-search form {
+    padding: 20px;
+}
+
+#new-york-times .container .form-search form .search-btn,
+#new-york-times .container .form-search form .reset-btn {
+    background:#798D8F;
+    color:#fff;
+}
+
 
