@@ -1,4 +1,5 @@
 
+
 .container {
     margin: 0 auto;
     width: 1024px;
@@ -25,3 +26,7 @@
     border-radius: 10px;
     box-sizing: border-box;
 }
+.form-search {
+    border:1px solid #000;
+}
+
