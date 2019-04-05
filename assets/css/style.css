@@ -2,17 +2,29 @@
     border:1px solid #000;
 }
 
+
 .container {
     margin: 0 auto;
     width: 1024px;
 
 }
-
+.results-header {
+    font-size: 50px;
+    background: #2C3E4E;
+    color: white;
+    padding: 5px 0px 0px 5px ;
+    border-radius: 2px;
+    margin: 10px 0px;
+    box-sizing: border-box; 
+    font-size: 20px;
+    height: 37px;
+    border:1px solid #000;
+}
 .new-york-times {
     height:150px;
     text-align: center;
     font-size: 50px;
-    background: rgb(51, 13, 95);
+    background: #2C3E4E;
     color: white;
     margin: 0 auto;
     padding: 30px 0;
