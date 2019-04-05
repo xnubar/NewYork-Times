@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>New York Times</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
@@ -19,20 +21,39 @@
 
             </div>
 
-            <form action="" method="GET">
-                <input type="text" id="search-input"><br>
+            <div class="form-search">
+                <form>
+                    <div class="form-group">
+                        <label for="search-input">Search Term:</label>
+                        <input type="text" class="form-control" id="search-input" aria-describedby="emailHelp"
+                           >
+          
+                    </div>
+                    <div class="form-group">
+                        <label for="input-num">Number of Records to Retrieve:</label>
+                        <input type="password" class="form-control" id="input-num">
+                    </div>
+                 
+                    <button type="submit" class="btn btn-primary search-btn">Search</button>
+                    <button type="reset" class="btn btn-primary reset-btn">Clear Results</button>
 
-                <input type="text" id="input-num"><br>
-                <input type="text" id="start-year"><br>
-                <input type="text" id="end-year"><br>
+                </form>
+<!-- 
+                <form action="" method="GET">
+                    <input type="text" id="search-input"><br>
 
-                <button id="search-btn">
-                    search
-                </button><br>
-                <button id="reset-btn">
-                    reset
-                </button>
-            </form>
+                    <input type="text" id="input-num"><br>
+                    <input type="text" id="start-year"><br>
+                    <input type="text" id="end-year"><br>
+
+                    <button id="search-btn">
+                        search
+                    </button><br>
+                    <button id="reset-btn">
+                        reset
+                    </button>
+                </form> -->
+            </div>
             <div class="results">
 
             </div>
