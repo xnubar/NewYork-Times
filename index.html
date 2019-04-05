@@ -2,33 +2,46 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>New York Times</title>
-<link rel="stylesheet" href="./assets/css/reset.css">
-<link rel="stylesheet" href="./assets/css/style.css">
-<script src="https://code.jquery.com/jquery-3.3.1.js"
-integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New York Times</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 </head>
-<h1>Newyork Times</h1>
+
 <body>
-<form action="get">
-<input type="text" id="search-input"><br>
-<input type="text" id="input-num"><br>
-<input type="text" id="start-year"><br>
-<input type="text" id="end-year"><br>
+    <div id="new-york-times">
+        <div class="container">
+            <div class="new-york-times header">
+                    <i class="far fa-newspaper"></i>
+                New York Times Search
+            </div>
 
-<button id="search-btn"> search</button><br>
-<button id="reset-btn">reset</button>
+            <form action="" method="GET">
+                <input type="text" id="search-input"><br>
 
+                <input type="text" id="input-num"><br>
+                <input type="text" id="start-year"><br>
+                <input type="text" id="end-year"><br>
 
+                <button id="search-btn">
+                    search
+                </button><br>
+                <button id="reset-btn">
+                    reset
+                </button>
+            </form>
+            <div class="results">
 
-
-
-</form>
-
-<script src="./assets/js/script.js"></script>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
 
 </body>
 
