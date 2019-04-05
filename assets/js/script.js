@@ -1,0 +1,6 @@
+var searchInput=$("#search-input")
+var inputNum=$("#input-num")
+var startYear=$("#start-year")
+var endYear=$("#end-year")
+var btnSearch=$("#search-btn")
+var btnReset=$("#reset-btn")
