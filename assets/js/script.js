@@ -1,4 +1,3 @@
-
 var searchInput=$("#search-input")
 var inputNum=$("#input-num")
 var startYear=$("#start-year")
