@@ -4,7 +4,16 @@
     width: 1024px;
 
 }
-
+.results {
+    height:60px;
+    font-size: 50px;
+    background: rgb(51, 13, 95);
+    color: white;
+    padding: 5px 0px 0px 5px ;
+    border-radius: 10px;
+    margin: 10px 0px;
+    box-sizing: border-box; 
+}
 .new-york-times {
     height:120px;
     text-align: center;
