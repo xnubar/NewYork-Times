@@ -39,18 +39,22 @@
                     </div>
                     <div class="form-group">
                         <label for="input-num">Number of Records to Retrieve:</label>
-                        <input type="number" class="form-control" id="input-num">
+                        <select name="counts" id="input-num" class="form-control">
+                            <option value="1">1</option>
+                            <option value="5" selected>5</option>
+                            <option value="10">10</option>
+                        </select>
 
                     </div>
 
                     <div class="form-group">
-                        <label for="start-year">Start Year:</label>
+                        <label for="start-year">Start Year (Optional):</label>
                         <input type="number" class="form-control" id="start-year">
 
                     </div>
 
                     <div class="form-group">
-                        <label for="end-year">End Year:</label>
+                        <label for="end-year">End Year (Optional):</label>
                         <input type="password" class="form-control" id="end-year">
 
                     </div>
@@ -66,7 +70,7 @@
             <div class="results">
                 <h4 class="results-header"><i class="fa fa-table"></i> Top Articles</h4>
              <div class="results-list">
-                    <div class="jumbotron">
+                    <!-- <div class="jumbotron">
                             <span class="article-num">1</span>
                             <h4 class="article">An Azerbaijani Feast Awaits in Brooklyn, if You Can Find it</h4>
                             <h5 class="author">by Zamiq ALiyev </h5>
@@ -75,15 +79,10 @@
                         <div class="jumbotron">
                             <span class="article-num">1</span>
                             <h4 class="article">An Azerbaijani Feast Awaits in Brooklyn, if You Can Find it</h4>
-                            <h5 class="author">by Zamiq ALiyev </h5>
+                            <h6 class="author">by Zamiq ALiyev </h6>
         
-                        </div>
-                        <div class="jumbotron">
-                            <span class="article-num">1</span>
-                            <h4 class="article">An Azerbaijani Feast Awaits in Brooklyn, if You Can Find it</h4>
-                            <h5 class="author">by Zamiq ALiyev </h5>
-        
-                        </div>
+                        </div> -->
+                      
              </div>
 
             </div>
